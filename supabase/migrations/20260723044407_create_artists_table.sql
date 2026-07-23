@@ -4,3 +4,6 @@ create table if not exists artists (
   email text,
   country text
 );
+
+ALTER TABLE public.artists ENABLE ROW LEVEL SECURITY;
+
